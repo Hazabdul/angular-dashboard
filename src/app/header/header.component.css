@@ -1,0 +1,6 @@
+.flex-container{width: 100%;}
+.flex-container ul{display: flex;
+justify-content: flex-end;
+text-decoration: none;
+list-style: none;
+align-items: center;}

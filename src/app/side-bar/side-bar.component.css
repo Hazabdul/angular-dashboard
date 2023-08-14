@@ -1,0 +1,32 @@
+/* img{width: 50%;
+height: 20vh;
+padding-left: 25%;} */
+/* h2 ,h3,h4{text-align: center;} */
+.profile{text-align: center;}
+.profile img{width: 130px;
+height: 150px;
+margin-top: 3%;
+object-fit: contain;}
+.profile h3{ font-weight: 800;
+margin-bottom: 0px;}
+.profile h2{ font-weight: 600;
+    font-size: medium;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+.pages{display:flex;
+flex-direction: column;
+}
+.pages a{text-decoration: none;
+color: black;
+height: 40px;
+padding:10px 0px 0px 10px;
+}
+.pages a:hover{
+    background-color: lightskyblue;
+    color: aliceblue;
+    font-size: 17px;
+}
+Mat-icon{vertical-align: middle;
+margin-right: 15px;
+}

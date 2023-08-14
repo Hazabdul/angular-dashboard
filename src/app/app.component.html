@@ -1,0 +1,17 @@
+<!-- header -->
+
+<app-header (OnMenuBtnClick)="toggle()"></app-header>
+<!-- side-nav -->
+<mat-drawer-container class="example-container">
+    <mat-drawer mode="side" [opened]="sidebarOpend"><app-side-bar></app-side-bar>
+    </mat-drawer>
+    <mat-drawer-content><router-outlet></router-outlet>
+
+    </mat-drawer-content>
+  </mat-drawer-container>
+  
+<!-- sidebar  -->
+<!-- dashboard -->
+<!-- fotter -->
+<mat-divider ></mat-divider>
+<app-footer></app-footer>
